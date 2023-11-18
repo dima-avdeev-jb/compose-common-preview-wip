@@ -28,6 +28,7 @@ kotlin {
                 implementation(compose.material)
                 @OptIn(org.jetbrains.compose.ExperimentalComposeLibrary::class)
                 implementation(compose.components.resources)
+                implementation("org.jetbrains.compose.components:components-ui-tooling-preview:1.6.0-dev1280")
             }
         }
         val androidMain by getting {
